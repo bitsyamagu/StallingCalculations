@@ -87,6 +87,6 @@ ps -ef |grep python
 ```
 列名も表示したい場合は
 ```
-ps -aef |grep "\(UID\|python\)"
+ps -ef |grep "\(PID\|python\)"
 ```
 のようにするとよいでしょう。
